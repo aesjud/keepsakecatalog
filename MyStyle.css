@@ -21,7 +21,7 @@ a:link{
 a:hover {
     background-color: thistle;
     color:blanchedalmond;
-    font-size:46px;
+    font-size:26px;
     text-decoration:underline;
 
 }
@@ -140,7 +140,6 @@ ol {
     }
 
 ul {
-    border-style:none;
     list-style:none;
 }
 
