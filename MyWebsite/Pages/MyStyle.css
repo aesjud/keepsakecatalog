@@ -1,0 +1,144 @@
+h1, p {
+    text-align: right;
+    padding-right:3em;
+    font-size: 38px;
+}
+h2 {
+    text-align: left;
+}
+
+.menulink {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding-top: 2em;
+        padding-bottom: 1em;
+        background-color: transparent;
+        border:none;
+        font-size:18px;
+    }
+a:link{
+    color:black;
+}
+a:hover {
+    background-color: thistle;
+    color:blanchedalmond;
+    font-size:46px;
+    text-decoration:underline;
+
+}
+
+table {
+    border-style:dotted;
+    line-height:2em;
+    border-bottom:none;
+    border-right:none;
+}
+
+#table {
+    float:right;
+    width:75vw;
+    table-layout:fixed;
+    text-align: center;
+    position:relative;
+    margin-bottom:1.5em;
+
+
+}
+
+#tabletitle {
+    text-align:center;
+    padding-left:10em;
+
+}
+
+table:hover {
+    transform:scale(.95);
+    background-color: thistle;
+}
+
+
+#homepage1 {
+    float:right;
+    padding-left:3em;
+    padding-right:.5em;
+    margin-bottom:1.5em;
+    margin-top:0em;
+}
+
+#HomepageTitle{
+    float:right;
+    padding-left:3em;
+    padding-right:.5em;
+    margin-bottom:0em;
+   
+}
+
+.footer {
+position: fixed;
+     left: 0;
+     bottom: 0;
+    width: 100%;
+    padding-bottom: .5em;
+    padding-left: .5em;
+    padding-right: 3em;
+    font-size: 14px;
+    
+}
+
+#texthome {
+    float:right;
+    padding-right:5em;
+    font-size:42px;
+    margin-top:3em;
+}
+
+.audio {
+    width:25vw;
+}
+img:hover {
+transform:scale(1.75);
+}
+
+figcaption {
+    line-height: 1.5;
+}
+
+
+.column {
+float: left;
+width: 25%;
+padding: 100px;
+}
+
+.row::after {
+content: "";
+clear: both;
+display: table;
+margin-bottom:3em;
+}
+
+.column2 {
+float:left;
+width: 50%;
+padding: 15px;
+padding-top:20px;
+}
+
+.row1::after {
+content: "";
+clear: both;
+display: table;
+padding-bottom: 3em;
+margin-bottom:3em;
+}
+
+ol {
+    list-style-type:upper-roman;
+    list-style-position:outside;
+    border-style:dotted;
+    border-bottom:none;
+    }
+
+#border {
+    border-style:dotted;
+    border-bottom:none;
+}
