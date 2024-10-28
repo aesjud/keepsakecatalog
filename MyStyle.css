@@ -134,8 +134,15 @@ margin-bottom:3em;
 ol {
     list-style-type:upper-roman;
     list-style-position:outside;
-    border-style:none;
+    line-height: 1.5em;
+    border-style: dotted;
+    border-bottom:none;
     }
+
+ul {
+    border-style:none;
+    list-style:none;
+}
 
 .border {
     border-style:dotted;
